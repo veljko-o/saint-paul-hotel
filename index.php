@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saint Paul | Hotel & Restoran</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<nav class="navbar-top">
+    <div class="logo">SAINT<span>PAUL</span></div>
+    
+    <ul class="nav-links-pill">
+        <li><a href="#home">POČETNA</a></li>
+        <li><a href="#rooms">SMEŠTAJ</a></li>
+        <li><a href="#about">O NAMA</a></li>
+        <li><a href="#contact">KONTAKT</a></li>
+    </ul>
+
+    <div class="nav-extra-icons">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bars"></i>
+    </div>
+</nav>
+<header class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <p class="fade-in-text">Dobrodošli u</p>
+            <h1>SAINT PAUL</h1>
+            <p class="hero-description">Otkrijte savršen spoj luksuza i prirode na obali reke. Vaš odmor počinje ovde.</p>
+            <a href="#rooms" class="btn-main">REZERVIŠI ODMAH</a>
+        </div>
+
+        <div class="hero-image-wrapper">
+            <div class="main-circle">
+                <img src="images/odmor.jpg" alt="Luksuzna soba">
+            </div>
+        </div>
+    </div>
+
+    <div class="social-sidebar">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+</header>
+
+    <section id="about" class="info-section">
+        <div class="section-header">
+            <h3>UDOBNOST I MIR</h3>
+            <h2>Vrhunski Doživljaj</h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="info-card">
+            <div class="info-text">
+                <h2>Odmor koji zaslužujete</h2>
+                <p>Saint Paul nije samo hotel, već utočište za one koji traže beg od svakodnevne gužve. Naš restoran i smeštajni kapaciteti su osmišljeni tako da se savršeno stapaju sa okruženjem, pružajući vam mir koji samo obala reke može da ponudi. Uživajte u vrhunskim gastronomskim specijalitetima dok posmatrate zalazak sunca sa naše terase.</p>
+                <button class="btn-secondary">SAZNAJTE VIŠE</button>
+            </div>
+            <div class="info-image">
+                <img src="images/odmor.jpg" alt="Enterijer sobe">
+            </div>
+        </div>
+
+        <div class="info-card reverse">
+            <div class="info-text">
+                <h2>Oaza mira pored reke</h2>
+                <p>Uživajte u zvukovima prirode i svežem vazduhu. Saint Paul je idealno mesto za one koji žele da napune baterije u neposrednoj blizini vode i prirodnog zelenila. Idealno za parove koji traže romantiku i porodice koje žele kvalitetno zajedničko vreme u zdravom okruženju.</p>
+                <button class="btn-secondary">ISTRAŽI OKOLINU</button>
+            </div>
+            <div class="info-image">
+                <img src="images/reka.jpg" alt="Pogled na reku">
+            </div>
+        </div>
+    </section>
+
+    <section class="amenities-section">
+        <div class="amenity">
+            <i class="fas fa-wifi"></i>
+            <p>Besplatan Wi-Fi</p>
+        </div>
+        <div class="amenity">
+            <i class="fas fa-parking"></i>
+            <p>Privatan Parking</p>
+        </div>
+        <div class="amenity">
+            <i class="fas fa-utensils"></i>
+            <p>Doručak uključen</p>
+        </div>
+        <div class="amenity">
+            <i class="fas fa-water"></i>
+            <p>Obala reke</p>
+        </div>
+    </section>
+
+    <section id="rooms" class="rooms-container">
+        <div class="section-header">
+            <h3>ISTRAŽITE NAŠE</h3>
+            <h2>Smeštajne Jedinice</h2>
+            <div class="line"></div>
+            <p class="section-subtitle">Svaka naša soba je pažljivo dizajnirana da pruži maksimalnu udobnost uz autentičan pogled na prirodu i reku.</p>
+        </div>
+        
+        <div class="rooms-grid">
+            <div class="room-card">
+                <div class="room-img-container">
+                    <img src="images/1.jpg" alt="Soba 1">
+                    <div class="price-tag">Najpopularnije</div>
+                </div>
+                <div class="room-details">
+                    <h4>Dvokrevetna Soba (Bračni)</h4>
+                    <p class="capacity">👥 2 Osobe</p>
+                    <button class="btn-price">REZERVIŠI</button>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <div class="room-img-container"><img src="images/2.jpg" alt="Soba 2"></div>
+                <div class="room-details">
+                    <h4>Trokrevetna Soba Standard</h4>
+                    <p class="capacity">👥 3 Osobe</p>
+                    <button class="btn-price">REZERVIŠI</button>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <div class="room-img-container"><img src="images/3.jpg" alt="Soba 3"></div>
+                <div class="room-details">
+                    <h4>Deluks Dvokrevetna Soba</h4>
+                    <p class="capacity">👥 2 Osobe</p>
+                    <button class="btn-price">REZERVIŠI</button>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <div class="room-img-container">
+                    <img src="images/4.jpg" alt="Soba 4">
+                    <div class="price-tag">Balkon</div>
+                </div>
+                <div class="room-details">
+                    <h4>Superior sa Balkonom</h4>
+                    <p class="capacity">👥 2 Osobe</p>
+                    <button class="btn-price">REZERVIŠI</button>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <div class="room-img-container"><img src="images/5.jpg" alt="Soba 5"></div>
+                <div class="room-details">
+                    <h4>Deluks Soba Tip B</h4>
+                    <p class="capacity">👥 2 Osobe</p>
+                    <button class="btn-price">REZERVIŠI</button>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <div class="room-img-container">
+                    <img src="images/6.jpg" alt="Soba 6">
+                    <div class="price-tag">Pogled Reka</div>
+                </div>
+                <div class="room-details">
+                    <h4>Superior Pogled Reka</h4>
+                    <p class="capacity">👥 2 Osobe | 🌅</p>
+                    <button class="btn-price">REZERVIŠI</button>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <div class="room-img-container"><img src="images/7.jpg" alt="Soba 7"></div>
+                <div class="room-details">
+                    <h4>Deluks (Moderan tuš)</h4>
+                    <p class="capacity">👥 2 Osobe | 🚿</p>
+                    <button class="btn-price">REZERVIŠI</button>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <div class="room-img-container"><img src="images/8.jpg" alt="Soba 8"></div>
+                <div class="room-details">
+                    <h4>Standard sa Balkonom</h4>
+                    <p class="capacity">👥 2 Osobe | 🌿</p>
+                    <button class="btn-price">REZERVIŠI</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="contact-footer">
+        <div class="contact-info">
+            <h2>Kontaktirajte nas</h2>
+            <p>📍 15km od centra Kraljeva, na obali reke.</p>
+            <p>📞 +381 XX XXX XXX</p>
+            <p>📧 info@saintpaul.rs</p>
+        </div>
+        <form class="contact-form">
+            <input type="text" placeholder="Vaše ime" required>
+            <input type="email" placeholder="Vaš Email" required>
+            <textarea placeholder="Vaša poruka ili upit za rezervaciju..." rows="5"></textarea>
+            <button type="submit" class="btn-main">POŠALJI UPIT</button>
+        </form>
+    </footer>
+
+</body>
+</html>
